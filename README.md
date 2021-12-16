@@ -1,4 +1,4 @@
-#### TC#1
+### TC#1
 
 ##### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
 
@@ -18,7 +18,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#2
+### TC#2
 
 ##### User should be able to Log in
 
@@ -36,7 +36,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#3
+### TC#3
 
 ##### User should be able to Log out
 
@@ -56,7 +56,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#4
+### TC#4
 
 ##### When clicking the burger menu in the left side of header - sidebar menu is shown
 
@@ -76,7 +76,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#5
+### TC#5
 
 ##### All received notifications is shown when click 'Notifications' link at sidebar
 
@@ -96,7 +96,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#6
+### TC#6
 
 ##### All received notifications is shown when click 'bell' icon in right side of header
 
@@ -116,9 +116,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#7
+### TC#7
 
-##### User should be able to create Bank Account by clicking 'Bank Accounts' link and<br> click [CREATE] button
+##### User should be able to create Bank Account by clicking 'Bank Accounts' link and click [CREATE] button
 
 Preconditions:
 
@@ -143,9 +143,9 @@ new bank account name in the list is shown - new bank account is created.
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#8
+### TC#8
 
-##### User should be able to delete Bank Account by clicking 'Bank Accounts' link<br> and click [DELETE] button
+##### User should be able to delete Bank Account by clicking 'Bank Accounts' link and click [DELETE] button
 
 Preconditions:
 
@@ -170,7 +170,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#9
+### TC#9
 
 ##### User not be able to create bigger payment as account balance is represented.
 
@@ -201,7 +201,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#10
+### TC#10
 
 ##### User not be able to create bigger payment request as account balance is represented.
 
@@ -232,9 +232,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#11
+### TC#11
 
-##### User should be able to create payment transaction by filling all mandatory fields<br> and click [PAY] button
+##### User should be able to create payment transaction by filling all mandatory fields and click [PAY] button
 
 Preconditions:
 
@@ -263,9 +263,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#12
+### TC#12
 
-##### User should be able to create request transaction by filling all mandatory fields\ and click [REQUEST] button
+##### User should be able to create request transaction by filling all mandatory fields and click [REQUEST] button
 
 Preconditions:
 
@@ -294,7 +294,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#13
+### TC#13
 
 ##### User should be able to edit user settings by clicking 'My Account' link at sidebar
 
@@ -332,7 +332,7 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#14
+### TC#14
 
 ##### User's payments should be shown by clicking 'MINE' link in header
 
@@ -376,7 +376,7 @@ User payment is represented in the list with value '-$50'
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#15
+### TC#15
 
 ##### User's requests should be shown by clicking 'MINE' link in header
 
@@ -420,9 +420,9 @@ User request is represented in the list with value '-$50'
 
 ------------------------------------------------------------------------------------------
 
-#### TTC#16
+### TC#16
 
-##### User should be able to create comment by clicking on any other user at homepage -<br> filling the comment field and click [Enter] key
+##### User should be able to create comment by clicking on any other user at homepage - filling the comment field and click [Enter] key
 
 Preconditions:
 
@@ -440,4 +440,4 @@ Steps:
 
 Expected result:
 
-1. After clicking the [Enter] key: 'Hello' is presented in block 'Comments' below<br> 'Write a comment...' field
+1. After clicking the [Enter] key: 'Hello' is presented in block 'Comments' below 'Write a comment...' field
