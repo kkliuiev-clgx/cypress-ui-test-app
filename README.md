@@ -1,9 +1,6 @@
-## TC#1
-
-Summary:
-
-### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
-
+> ## TC#1
+>
+> ### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
 
 Steps:
 
@@ -21,12 +18,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#2
-
-Summary:
-
-### User should be able to Log in
-
+> ## TC#2
+>
+> ### User should be able to Log in
 
 Steps:
 
@@ -42,11 +36,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#3
-
-Summary:
-
-### User should be able to Log out
+> ## TC#3
+>
+> ### User should be able to Log out
 
 
 Preconditions:
@@ -65,12 +57,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#4
-
-Summary:
-
-### When clicking the burger menu in the left side of header - sidebar menu is shown
-
+> ## TC#4
+>
+> ### When clicking the burger menu in the left side of header - sidebar menu is shown
 
 Preconditions:
 
@@ -88,12 +77,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#5
-
-Summary:
-
-### All received notifications is shown when click 'Notifications' link at sidebar
-
+> ## TC#5
+>
+> ### All received notifications is shown when click 'Notifications' link at sidebar
 
 Preconditions:
 
@@ -111,12 +97,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#6
-
-Summary:
-
-### All received notifications is shown when click 'bell' icon in right side of header
-
+> ## TC#6
+>
+> ### All received notifications is shown when click 'bell' icon in right side of header
 
 Preconditions:
 
@@ -134,12 +117,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#7
-
-Summary:
-
-### User should be able to create Bank Account by clicking 'Bank Accounts' link and click [CREATE] button
-
+> ## TC#7
+>
+> ### User should be able to create Bank Account by clicking 'Bank Accounts' link and click [CREATE] button
 
 Preconditions:
 
@@ -164,12 +144,9 @@ new bank account name in the list is shown - new bank account is created.
 
 ------------------------------------------------------------------------------------------
 
-## TC#8
-
-Summary:
-
-### User should be able to delete Bank Account by clicking 'Bank Accounts' link and click [DELETE] button
-
+> ## TC#8
+>
+> ### User should be able to delete Bank Account by clicking 'Bank Accounts' link and click [DELETE] button
 
 Preconditions:
 
@@ -194,12 +171,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#9
-
-Summary:
-
-### User not be able to create bigger payment as account balance is represented.
-
+> ## TC#9
+>
+> ### User not be able to create bigger payment as account balance is represented.
 
 Preconditions:
 
@@ -228,12 +202,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#10
-
-Summary:
-
-### User not be able to create bigger payment request as account balance is represented.
-
+>## TC#10
+>
+>### User not be able to create bigger payment request as account balance is represented.
 
 Preconditions:
 
@@ -262,12 +233,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#11
-
-Summary:
-
-### User should be able to create payment transaction by filling all mandatory fields and click [PAY] button
-
+> ## TC#11
+>
+> ### User should be able to create payment transaction by filling all mandatory fields and click [PAY] button
 
 Preconditions:
 
@@ -296,12 +264,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#12
-
-Summary:
-
-### User should be able to create request transaction by filling all mandatory fields and click [REQUEST] button
-
+> ## TC#12
+>
+> ### User should be able to create request transaction by filling all mandatory fields and click [REQUEST] button
 
 Preconditions:
 
@@ -330,12 +295,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#13
-
-Summary:
-
-### User should be able to edit user settings by clicking 'My Account' link at sidebar
-
+> ## TC#13
+>
+> ### User should be able to edit user settings by clicking 'My Account' link at sidebar
 
 Preconditions:
 
@@ -371,12 +333,9 @@ Expected result:
 
 ------------------------------------------------------------------------------------------
 
-## TC#14
-
-Summary:
-
-### User's payments should be shown by clicking 'MINE' link in header
-
+> ## TC#14
+>
+> ### User's payments should be shown by clicking 'MINE' link in header
 
 Preconditions:
 
@@ -418,12 +377,9 @@ User payment is represented in the list with value '-$50'
 
 ------------------------------------------------------------------------------------------
 
-## TC#15
-
-Summary:
-
-### User's requests should be shown by clicking 'MINE' link in header
-
+> ## TC#15
+>
+> ### User's requests should be shown by clicking 'MINE' link in header
 
 Preconditions:
 
@@ -465,12 +421,9 @@ User request is represented in the list with value '-$50'
 
 ------------------------------------------------------------------------------------------
 
-## TC#16
-
-Summary:
-
-### User should be able to create comment by clicking on any other user at homepage - filling the comment field and click [Enter] key
-
+> ## TC#16
+>
+> ### User should be able to create comment by clicking on any other user at homepage - filling the comment field and click [Enter] key
 
 Preconditions:
 
