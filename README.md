@@ -1,6 +1,6 @@
-## TC#1
+#### TC#1
 
-### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
+##### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
 
 Steps:
 
