@@ -118,7 +118,7 @@ Expected result:
 
 #### TTC#7
 
-##### User should be able to create Bank Account by clicking 'Bank Accounts' link and\ click [CREATE] button
+##### User should be able to create Bank Account by clicking 'Bank Accounts' link and<br> click [CREATE] button
 
 Preconditions:
 
@@ -145,7 +145,7 @@ new bank account name in the list is shown - new bank account is created.
 
 #### TTC#8
 
-##### User should be able to delete Bank Account by clicking 'Bank Accounts' link and\ click [DELETE] button
+##### User should be able to delete Bank Account by clicking 'Bank Accounts' link<br> and click [DELETE] button
 
 Preconditions:
 
@@ -234,7 +234,7 @@ Expected result:
 
 #### TTC#11
 
-##### User should be able to create payment transaction by filling all mandatory fields\ and click [PAY] button
+##### User should be able to create payment transaction by filling all mandatory fields<br> and click [PAY] button
 
 Preconditions:
 
@@ -422,7 +422,7 @@ User request is represented in the list with value '-$50'
 
 #### TTC#16
 
-##### User should be able to create comment by clicking on any other user at homepage -\ filling the comment field and click [Enter] key
+##### User should be able to create comment by clicking on any other user at homepage -<br> filling the comment field and click [Enter] key
 
 Preconditions:
 
@@ -440,4 +440,4 @@ Steps:
 
 Expected result:
 
-1. After clicking the [Enter] key: 'Hello' is presented in block 'Comments' below\ 'Write a comment...' field
+1. After clicking the [Enter] key: 'Hello' is presented in block 'Comments' below<br> 'Write a comment...' field
