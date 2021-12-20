@@ -1,7 +1,12 @@
 describe('Sign in suite', () => {
 
-  it('', () => {
-    cy.login();
+  let existingUser = {
+    "username": "Snow",
+    "password": "12345Qwert!"
+  };
+
+  it('Existing user should be able to login', () => {
+    cy.get();
   })
   
 })
