@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 describe("Signup suite", () => {
   let user;
+
   beforeEach(() => {
     cy.task("newUser").then((newUser) => {
       user = newUser;
@@ -21,7 +22,7 @@ describe("Signup suite", () => {
     cy.get('[data-test="signup-submit"]')
       .click().should("be.disabled");
     cy.get('[data-test="signup-title"]').click();
-    
+
     cy.get('[action="#"]').within(() => {
     cy.get('fieldset').eq(0).find("span").should("contain", "First Name");
     cy.get('fieldset').eq(1).find("span").should("contain", "Last Name");

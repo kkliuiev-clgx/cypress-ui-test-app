@@ -1196,6 +1196,17 @@
       "balance": 0,
       "createdAt": "2021-12-21T16:30:06.066Z",
       "modifiedAt": "2021-12-21T16:30:06.066Z"
+    },
+    {
+      "id": "R-M28Nml-",
+      "uuid": "82d2da97-5250-45f5-bdee-6b1f9b0ba9a3",
+      "firstName": "Annabel",
+      "lastName": "Flatley",
+      "username": "Olaf1413",
+      "password": "$2a$10$xTIpQdzlZ/xOBQViyUYkf.5m.igxBjhSxLbKWsagty/n8RIdkNSKK",
+      "balance": 0,
+      "createdAt": "2021-12-21T16:32:01.174Z",
+      "modifiedAt": "2021-12-21T16:32:01.174Z"
     }
   ],
   "contacts": [

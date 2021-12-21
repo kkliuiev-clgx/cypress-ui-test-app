@@ -5,7 +5,7 @@ describe("Sign in suite", () => {
     "password": "12345Qwert!"
   };
 
-  beforeEach('Visit url', () => {
+  beforeEach(() => {
     cy.visit("/signin");
   });
 
