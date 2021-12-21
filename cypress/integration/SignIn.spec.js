@@ -1,6 +1,4 @@
 /* eslint-disable prettier/prettier */
-const { before } = require("lodash");
-
 describe("Sign in suite", () => {
   let existingUser = {
     "username": "Snow",
@@ -13,6 +11,12 @@ describe("Sign in suite", () => {
 
   it('Sign in page has Logo, Sign in title and Sign up link', () => {
     cy.get("svg").should("have.attr", "xmlns", "http://www.w3.org/2000/svg").and("be.visible");
+
+    cy.get("#username-label")
+      .should("contain", "Username");
+    cy.get("#password-label")
+      .should("contain", "Password");
+
     cy.get('[data-test="signup"]')
       .should("have.attr", "href", "/signup")
       .and("contain", "Don't have an account? Sign Up");
@@ -22,13 +26,9 @@ describe("Sign in suite", () => {
     cy.get('[data-test="signin-submit"]')
       .click().should("be.disabled");
 
-    cy.get("#username-label")
-      .should("contain", "Username");
     cy.get("#username")
       .type(existingUser.username);
       
-    cy.get("#password-label")
-      .should("contain", "Password");
     cy.get("#password")
       .type(existingUser.password);
 
