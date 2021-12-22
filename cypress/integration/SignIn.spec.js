@@ -52,4 +52,18 @@ describe("Sign in suite", () => {
     cy.get('[data-test="signin-submit"]')
       .click();
   });
+
+  it(`Unexisting user shouldn't be able to Log in`, () => {
+    cy.get("#username")
+    .type('Chris');
+    cy.get("#password")
+    .type("123456Qwer@");
+    cy.get('[data-test="signin-submit"]')
+      .click();
+    cy.get('.MuiAlert-message')
+      .should('contain', 'Username or password is invalid')
+      .and('be.visible');
+  });
+
+
 });

@@ -96,6 +96,116 @@
       "balance": 0,
       "createdAt": "2021-12-22T14:14:23.279Z",
       "modifiedAt": "2021-12-22T14:14:23.279Z"
+    },
+    {
+      "id": "CDuMXXteA",
+      "uuid": "88545f40-3683-4e81-b486-918c3ff164e8",
+      "firstName": "Theresia",
+      "lastName": "Robel",
+      "username": "Elisha73181",
+      "password": "$2a$10$3eaks/9DI9XDkzVHpW4tmuX8D7QeQu5s3lT62P9iKu3ZVQMo/ihwC",
+      "balance": 0,
+      "createdAt": "2021-12-22T14:48:46.358Z",
+      "modifiedAt": "2021-12-22T14:48:46.358Z"
+    },
+    {
+      "id": "E-OjzOrbL",
+      "uuid": "39455e6d-719f-4b66-af64-60cc48534297",
+      "firstName": "Monique",
+      "lastName": "McDermott",
+      "username": "Rigoberto10802",
+      "password": "$2a$10$hPPSfg2f4BoLnoMUC/5PMOJax2VE8zYs8Xe25bFJJHiP4ckD158Oq",
+      "balance": 0,
+      "createdAt": "2021-12-22T14:51:04.897Z",
+      "modifiedAt": "2021-12-22T14:51:04.897Z"
+    },
+    {
+      "id": "Z9xGamb86",
+      "uuid": "32dd58dd-d975-4c08-9d87-12aea9599d55",
+      "firstName": "Kathlyn",
+      "lastName": "VonRueden",
+      "username": "Andrew22705",
+      "password": "$2a$10$PqcobS7qhHPIgfrec2ctW.TPcciNXwDIFnW.k9fU/qP6JygEjnuCi",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:05:45.824Z",
+      "modifiedAt": "2021-12-22T15:05:45.824Z"
+    },
+    {
+      "id": "uB5GNwlp0",
+      "uuid": "bdfcf321-9173-439f-9b60-750a481a6c76",
+      "firstName": "Vita",
+      "lastName": "Konopelski",
+      "username": "Kellie57139",
+      "password": "$2a$10$46SoTVqI/qX.HUnaU52Xr.LCj/KKSB1DOCgZ.8tI9b6R30emfKyFm",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:06:27.099Z",
+      "modifiedAt": "2021-12-22T15:06:27.099Z"
+    },
+    {
+      "id": "QgWViyOLx",
+      "uuid": "e3901cbb-c8a0-4b44-beb0-6de3e6d99c78",
+      "firstName": "Cordie",
+      "lastName": "Green",
+      "username": "Ashly62484",
+      "password": "$2a$10$Y6EGH0fH.dZHV2F4ASliLOGzliET4dFMeCQDYdWfqphADt2miIb8y",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:07:16.381Z",
+      "modifiedAt": "2021-12-22T15:07:16.381Z"
+    },
+    {
+      "id": "u-3IynNTk",
+      "uuid": "9ebd012d-d787-4875-b455-22a68e19c6bf",
+      "firstName": "Marty",
+      "lastName": "Hermann",
+      "username": "Rowan93697",
+      "password": "$2a$10$6MVYOfHVUgDcJyvdBrnXzeQTxNJGzOot.L.WNxMgCfJy4UnkEO7oS",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:08:04.512Z",
+      "modifiedAt": "2021-12-22T15:08:04.512Z"
+    },
+    {
+      "id": "l8C1Nw7BA",
+      "uuid": "f9d80292-2847-4893-b80b-b103686ee6ad",
+      "firstName": "Karli",
+      "lastName": "Hackett",
+      "username": "Davonte89519",
+      "password": "$2a$10$ilVlq.wBFS5yqJsh0JA0DOcZ7RbdRjqLfeWMgirqvTuye48DD633S",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:11:47.493Z",
+      "modifiedAt": "2021-12-22T15:11:47.493Z"
+    },
+    {
+      "id": "iaQXAj-Gb",
+      "uuid": "196b754c-c87f-4956-a751-a4394893f935",
+      "firstName": "Agustin",
+      "lastName": "Bailey",
+      "username": "Enid22200",
+      "password": "$2a$10$1Hn6Kx7myZ0Z/eeHrpszG.Mngh2fUmdKjnjugJha6iQgtQv3UziqC",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:13:52.566Z",
+      "modifiedAt": "2021-12-22T15:13:52.566Z"
+    },
+    {
+      "id": "OLzyiwDMl",
+      "uuid": "8382f120-0189-42eb-8b6c-086f348ecbba",
+      "firstName": "Janiya",
+      "lastName": "Conroy",
+      "username": "Bryce79193",
+      "password": "$2a$10$.OslHTOEZzGXp0oShhDkpek8Pv6v7Pb6juzw10VVQTVfHeUmLdeKS",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:14:16.204Z",
+      "modifiedAt": "2021-12-22T15:14:16.204Z"
+    },
+    {
+      "id": "IWs-qrs2Z",
+      "uuid": "a1341554-25b8-4034-9348-de0d7892e43e",
+      "firstName": "Romaine",
+      "lastName": "Kertzmann",
+      "username": "Oswaldo40650",
+      "password": "$2a$10$4N2WjHwmj8JNyLoBeAlx0eLpGNbpfv1VHZnPsD.7tC6wwQkvrBLYO",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:15:29.439Z",
+      "modifiedAt": "2021-12-22T15:15:29.439Z"
     }
   ],
   "contacts": [

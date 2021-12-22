@@ -10,7 +10,7 @@ describe("Signup suite", () => {
     cy.get("[href='/signup']").click();
   });
 
-  it("Sign up page should have title with logo, 'Sign up' text, 'Sign up' button, First Name, Last Name and other fields", () => {
+  it("Sign up page should have title with logo, 'Sign up' text, 'Sign up' button, First Name, Last Name and text form fields", () => {
     cy.url().should("include", "/signup");
 
     cy.get("svg")

@@ -3,6 +3,7 @@
 >> ### 'Sign in' page has logo, 'Sign in' title, Sign up link, username & password fields
 >
 > Preconditions:
+>
 > Go to http://localhost:3000/signin
 > 
 > Steps:
@@ -29,6 +30,7 @@
 >> ### 'Sign up' page has logo, 'Sign up' title, Sign in link and all form fields 
 >
 > Preconditions:
+>
 > Go to http://localhost:3000/signup
 > 
 > Steps:
@@ -39,29 +41,50 @@
 > 
 > 3. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
 >
-> 4. Pay attention that logo "Real world App" exists
+> 4. Pay attention that 'First Name' field exists and and has 'First Name' placeholder 
 > 
-> 5. Pay attention that 'Sign up' title exists below logo "Real world App"
+> 5. Pay attention that 'Lasst Name' field exists and and has 'Last Name' placeholder
 > 
-> 6. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
+> 6. Pay attention that 'Username' field exists and and has 'Username' placeholder
 > 
-> 7. Pay attention that 'Sign up' title exists below logo "Real world App"
+> 7. Pay attention that 'Password' field exists and and has 'Password' placeholder
 > 
-> 8. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
+> 8. Pay attention that 'Confirm Password' field exists and and has 'Confirm Password' placeholder
 > 
 > Expected result:
 > 
-> 1. Logo, 'Sign up' title, and Sign in link are existing on the 'Sign up' page
+> 1. Logo, 'Sign up' title, Sign in link and all form fields are existing on the 'Sign up' page
 > 
+------------------------------------------------------------------------------------------
+> ## TCN#001
+>
+>> ### Unexisting user shouldn't be able to Log in
+>
+> Preconditions:
+>
+> Go to http://localhost:3000/login
+>
+> Test data:
+>
+>    username: Chris
+>
+>    password: 12345Qwert! 
+> 
+> Steps:
+>
+> 1. Fill 'Username' and 'Password' fields with test data
+>
+> 3. Click on [Sign In] button
+>
+> Expected result:
+>
+> 1. All fields is cleared, page shows message "Username or password is invalid" - unsuccessfully login.
+>
 ------------------------------------------------------------------------------------------
 >
 > ## TC#1
 >
 >> ### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
->
-> Test data:
->    username: Snow
->    password: 12345Qwert! 
 > 
 > Steps:
 > 
@@ -69,9 +92,9 @@
 > 
 > 2. Click 'Don't have an account? Sign Up' link
 > 
-> 3. Fill all mandatory fields with test data
+> 3. Fill all mandatory fields
 > 
-> 4. Click on [Sign Up] button
+> 4. Click on [Sign Up] button (button has 'Sign Up' text)
 > 
 > Expected result:
 > 
@@ -83,13 +106,19 @@
 >
 >> ### User should be able to Log in
 >
+> Test data:
+>
+>    username: Snow
+>
+>    password: 12345Qwert! 
+>
 > Steps:
 >
 > 1. Go to http://localhost:3000/login
 >
-> 2. Fill 'Username' and 'Password' fields
+> 2. Fill 'Username' and 'Password' fields with test data
 >
-> 3. Click on [Sign In] button
+> 3. Click on [Sign In] button (button has 'Sign in' text)
 >
 > Expected result:
 >
