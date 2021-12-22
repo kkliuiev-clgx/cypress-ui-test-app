@@ -206,6 +206,28 @@
       "balance": 0,
       "createdAt": "2021-12-22T15:15:29.439Z",
       "modifiedAt": "2021-12-22T15:15:29.439Z"
+    },
+    {
+      "id": "r6eTQPpkx",
+      "uuid": "d988196d-4848-4053-9a08-46e3289b9fa2",
+      "firstName": "Aniya",
+      "lastName": "Bogan",
+      "username": "Kariane22373",
+      "password": "$2a$10$VifLMAiW1a3..11FFdIqBuelYlzzRjya49mPbjJku81z16WlVKnRe",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:17:06.627Z",
+      "modifiedAt": "2021-12-22T15:17:06.627Z"
+    },
+    {
+      "id": "mEAv3GcWy",
+      "uuid": "c67a141d-1031-479c-bb15-0a436e8476c4",
+      "firstName": "Brannon",
+      "lastName": "Ullrich",
+      "username": "Sydnie83246",
+      "password": "$2a$10$wRsY7Qqxy3LHhJ.xtsIgLen40861YLae3K25kIb0rBlrmb35KOXF2",
+      "balance": 0,
+      "createdAt": "2021-12-22T15:20:31.135Z",
+      "modifiedAt": "2021-12-22T15:20:31.135Z"
     }
   ],
   "contacts": [

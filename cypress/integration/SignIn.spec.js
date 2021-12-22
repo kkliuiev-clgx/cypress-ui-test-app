@@ -53,11 +53,11 @@ describe("Sign in suite", () => {
       .click();
   });
 
-  it(`Unexisting user shouldn't be able to Log in`, () => {
+  it(`User wuth unexisting username shouldn't be able to Log in`, () => {
     cy.get("#username")
     .type('Chris');
     cy.get("#password")
-    .type("123456Qwer@");
+    .type("12345Qwert!");
     cy.get('[data-test="signin-submit"]')
       .click();
     cy.get('.MuiAlert-message')
@@ -65,5 +65,15 @@ describe("Sign in suite", () => {
       .and('be.visible');
   });
 
-
+  it(`User with existing username and invalid password shouldn't be able to Log in`, () => {
+    cy.get("#username")
+    .type('Chris');
+    cy.get("#password")
+    .type("122345Qwert!");
+    cy.get('[data-test="signin-submit"]')
+      .click();
+    cy.get('.MuiAlert-message')
+      .should('contain', 'Username or password is invalid')
+      .and('be.visible');
+  });
 });
