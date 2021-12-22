@@ -1,6 +1,67 @@
+> ## TC#001
+>
+>> ### 'Sign in' page has logo, 'Sign in' title, Sign up link, username & password fields
+>
+> Preconditions:
+> Go to http://localhost:3000/signin
+> 
+> Steps:
+> 
+> 1. Pay attention that logo "Real world App" exists
+> 
+> 2. Pay attention that 'Sign in' title exists below logo "Real world App"
+> 
+> 3. Pay attention that 'Don't have an account? Sign Up' link below 'Sign in' button
+> exists
+>
+> 4. Pay attention that field 'Username' exists and has 'Username' placeholder 
+> 
+> 5. Pay attention that field 'Password' exists and has 'Password' placeholder 
+> 
+> Expected result:
+> 
+> 1. Logo, 'Sign in' title, and Sign up link are existing on the 'Sign in' page
+> 
+------------------------------------------------------------------------------------------
+>
+> ## TC#002
+>
+>> ### 'Sign up' page has logo, 'Sign up' title, Sign in link and all form fields 
+>
+> Preconditions:
+> Go to http://localhost:3000/signup
+> 
+> Steps:
+> 
+> 1. Pay attention that logo "Real world App" exists
+> 
+> 2. Pay attention that 'Sign up' title exists below logo "Real world App"
+> 
+> 3. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
+>
+> 4. Pay attention that logo "Real world App" exists
+> 
+> 5. Pay attention that 'Sign up' title exists below logo "Real world App"
+> 
+> 6. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
+> 
+> 7. Pay attention that 'Sign up' title exists below logo "Real world App"
+> 
+> 8. Pay attention that 'Have an account? Sign In' link below 'Sign up' button exists
+> 
+> Expected result:
+> 
+> 1. Logo, 'Sign up' title, and Sign in link are existing on the 'Sign up' page
+> 
+------------------------------------------------------------------------------------------
+>
 > ## TC#1
 >
 >> ### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
+>
+> Test data:
+>    username: Snow
+>    password: 12345Qwert! 
 > 
 > Steps:
 > 
@@ -8,7 +69,7 @@
 > 
 > 2. Click 'Don't have an account? Sign Up' link
 > 
-> 3. Fill all mandatory fields
+> 3. Fill all mandatory fields with test data
 > 
 > 4. Click on [Sign Up] button
 > 

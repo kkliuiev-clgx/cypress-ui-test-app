@@ -9,7 +9,7 @@ describe("Sign in suite", () => {
     cy.visit("/signin");
   });
 
-  it('Sign in page has Logo, Sign in title and Sign up link', () => {
+  it('Sign in page has Logo, Sign in title, Sign up link and text form fields', () => {
     cy.get("svg").should("have.attr", "xmlns", "http://www.w3.org/2000/svg").and("be.visible");
 
     cy.get("#username-label")
