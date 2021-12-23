@@ -42,7 +42,7 @@ describe("Signup suite", () => {
     cy.get('[data-test="signup-submit"]')
         .should("be.disabled").click({force: true});
     cy.get('[action="#"]').within(() => {
-      cy.get("#firstName-helper-text").eq(0).should("contain", "First Name is required");
+      cy.get("#firstName-helper-text").should("contain", "First Name is required");
       cy.get("#lastName-helper-text").should("contain", "Last Name is required");
       cy.get("#username-helper-text").should("contain", "Username is required");
       cy.get("#password-helper-text").should("contain", "Enter your password");

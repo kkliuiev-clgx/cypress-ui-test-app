@@ -27,7 +27,7 @@
 >
 > ## TC#02
 >
->> ### 'Sign up' page has logo, 'Sign up' title, Sign in link and all form fields 
+>> ### 'Sign up' page has logo, 'Sign up' title, Sign in link and all form fields
 >
 > Preconditions:
 >
