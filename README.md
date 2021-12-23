@@ -1,4 +1,4 @@
-> ## TC#001
+> ## TC#01
 >
 >> ### 'Sign in' page has logo, 'Sign in' title, Sign up link, username & password fields
 >
@@ -25,7 +25,7 @@
 > 
 ------------------------------------------------------------------------------------------
 >
-> ## TC#002
+> ## TC#02
 >
 >> ### 'Sign up' page has logo, 'Sign up' title, Sign in link and all form fields 
 >
@@ -43,7 +43,7 @@
 >
 > 4. Pay attention that 'First Name' field exists and and has 'First Name' placeholder 
 > 
-> 5. Pay attention that 'Lasst Name' field exists and and has 'Last Name' placeholder
+> 5. Pay attention that 'Last Name' field exists and and has 'Last Name' placeholder
 > 
 > 6. Pay attention that 'Username' field exists and and has 'Username' placeholder
 > 
@@ -56,9 +56,10 @@
 > 1. Logo, 'Sign up' title, Sign in link and all form fields are existing on the 'Sign up' page
 > 
 ------------------------------------------------------------------------------------------
-> ## TCN#001
 >
->> ### Unexisting user shouldn't be able to Log in
+> ## TC#03
+>
+>> ### Unexciting user shouldn't be able to Log in
 >
 > Preconditions:
 >
@@ -68,7 +69,7 @@
 >
 >    username: Chris
 >
->    password: 12345Qwert! 
+>    password: 12345Qwert!
 > 
 > Steps:
 >
@@ -82,7 +83,57 @@
 >
 ------------------------------------------------------------------------------------------
 >
-> ## TC#1
+> ## TCN#04
+>
+>> ### User can't Sign up with blank fields - page shows messages for blank field
+>
+> Preconditions:
+>
+> Go to http://localhost:3000/signup
+> 
+> Steps:
+>
+> 1. Click on "First Name" field
+>
+> 2. Click on "Last Name" field
+>
+> 3. Click on "Username" field
+>
+> 4. Click on "Password" field
+>
+> 5. Click on "Confirm Password" field
+>
+> 6. Click on [Sign Up] button
+>
+> Expected result:
+>
+> 1. All fields shows messages that field is required, "Sign Up" button is disabled - unsuccessfully sign up.
+>
+------------------------------------------------------------------------------------------
+>
+> ## TCN#05
+>
+>> ### User can't login with blank username field - page shows message "Username is required"
+>
+> Preconditions:
+>
+> Go to http://localhost:3000/login
+> 
+> Steps:
+>
+> 1. Click on "First Name" field
+>
+> 2. Click on "Password" field and fill it with text: "12345Qwert!"
+>
+> 4. Click on [Sign Up] button
+>
+> Expected result:
+>
+> 1. Page shows message below 'First Name' field: Username is required, "Sign Up" button is disabled - unsuccessfully login.
+>
+------------------------------------------------------------------------------------------
+>
+> ## TC#06
 >
 >> ### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
 > 
@@ -102,7 +153,7 @@
 > 
 ------------------------------------------------------------------------------------------
 >
-> ## TC#2
+> ## TC#07
 >
 >> ### User should be able to Log in
 >
@@ -126,7 +177,7 @@
 >
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#3
+> ## TC#08
 >
 >> ### User should be able to Log out
 > 
@@ -146,7 +197,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#4
+> ## TC#09
 >
 >> ### When clicking the burger menu in the left side of header - sidebar menu is shown
 > 
@@ -166,7 +217,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#5
+> ## TC#010
 >
 >> ### All received notifications is shown when click 'Notifications' link at sidebar
 > 
@@ -186,7 +237,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#6
+> ## TC#011
 >
 >> ### All received notifications is shown when click 'bell' icon in right side of header
 > 
@@ -206,7 +257,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#7
+> ## TC#012
 >
 >> ### User should be able to create Bank Account by clicking 'Bank Accounts' link and click [CREATE] button
 > 
@@ -232,7 +283,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#8
+> ## TC#013
 >
 >> ### User should be able to delete Bank Account by clicking 'Bank Accounts' link and click [DELETE] button
 > 
@@ -258,7 +309,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#9
+> ## TC#014
 >
 >> ### User not be able to create bigger payment as account balance is represented.
 > 
@@ -288,7 +339,7 @@
 > 
 ------------------------------------------------------------------------------------------
 
-> ## TC#10
+> ## TC#015
 >
 >> ### User not be able to create bigger payment request as account balance is represented.
 > 
@@ -318,7 +369,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#11
+> ## TC#016
 >
 >> ### User should be able to create payment transaction by filling all mandatory fields and click [PAY] button
 > 
@@ -348,7 +399,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#12
+> ## TC#017
 >
 >> ### User should be able to create request transaction by filling all mandatory fields and click [REQUEST] button
 > 
@@ -378,7 +429,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#13
+> ## TC#018
 >
 >> ### User should be able to edit user settings by clicking 'My Account' link at sidebar
 > 
@@ -415,7 +466,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#14
+> ## TC#019
 >
 >> ### User's payments should be shown by clicking 'MINE' link in header
 > 
@@ -458,7 +509,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#15
+> ## TC#020
 >
 >> ### User's requests should be shown by clicking 'MINE' link in header
 > 
@@ -501,7 +552,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#16
+> ## TC#021
 >
 >> ### User should be able to create comment by clicking on any other user at homepage - filling the comment field and click [Enter] key
 > 

@@ -22,6 +22,18 @@ describe("Sign in suite", () => {
       .and("contain", "Don't have an account? Sign Up");
   });
 
+  it(`User can't login with blank username field - page shows message "Username is required"`, () => {
+    cy.get("#username")
+      .click();
+    cy.get("#password")
+      .click();
+    cy.get("#username-helper-text")
+      .should("contain", "Username is required");
+    cy.get('[data-test="signin-submit"]')
+        .click({force: true})
+        .should("be.disabled");
+  });
+  
   it('Existing user should be able to login', () => {
     cy.get('[data-test="signin-submit"]')
       .click().should("be.disabled");
@@ -53,7 +65,7 @@ describe("Sign in suite", () => {
       .click();
   });
 
-  it(`User wuth unexisting username shouldn't be able to Log in`, () => {
+  it(`User with unexciting username shouldn't be able to Log in`, () => {
     cy.get("#username")
     .type('Chris');
     cy.get("#password")

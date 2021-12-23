@@ -33,6 +33,23 @@ describe("Signup suite", () => {
     cy.get('[href="/signin"]').should("contain", "Have an account? Sign In");
   });
 
+  it(`User can't sign up with blank fields - page shows messages for blank field`, () => {
+    cy.get("#firstName").click();
+    cy.get("#lastName").click();
+    cy.get("#username").click();
+    cy.get("#password").click();
+    cy.get("#confirmPassword").click();
+    cy.get('[data-test="signup-submit"]')
+        .should("be.disabled").click({force: true});
+    cy.get('[action="#"]').within(() => {
+      cy.get("#firstName-helper-text").eq(0).should("contain", "First Name is required");
+      cy.get("#lastName-helper-text").should("contain", "Last Name is required");
+      cy.get("#username-helper-text").should("contain", "Username is required");
+      cy.get("#password-helper-text").should("contain", "Enter your password");
+      cy.get("#confirmPassword-helper-text").should("contain", "Confirm your password");
+    });
+});
+
   it("User should have an ability to create a new account", () => {
     cy.get("#firstName").type(user.userFirstName);
     cy.get("#lastName").type(user.userLastName);
