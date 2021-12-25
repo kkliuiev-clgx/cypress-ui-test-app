@@ -50,6 +50,25 @@ describe("Signup suite", () => {
     });
 });
 
+  it("User with password length less then 4 characters shouldn't be able to sign up - page shows warning message", () => {
+    cy.get("#firstName").type(user.userFirstName);
+    cy.get("#lastName").type(user.userLastName);
+    cy.get("#username").type(user.username);
+    cy.get("#password").type('1');
+    cy.get('#password-helper-text').should('contain', 'Password must contain at least 4 characters')
+    cy.get('[data-test="signup-submit"]').should("be.disabled");
+  });
+
+  it("User with different 'password' field & 'confirm password' field shouldn't be able to sign up - page shows warning message", () => {
+    cy.get("#firstName").type(user.userFirstName);
+    cy.get("#lastName").type(user.userLastName);
+    cy.get("#username").type(user.username);
+    cy.get("#password").type(user.password);
+    cy.get("#confirmPassword").type("123456qwert!");
+    cy.get('#confirmPassword-helper-text').should('contain', 'Password does not match')
+    cy.get('[data-test="signup-submit"]').should("be.disabled");
+  });
+
   it("User should have an ability to create a new account", () => {
     cy.get("#firstName").type(user.userFirstName);
     cy.get("#lastName").type(user.userLastName);

@@ -9,6 +9,6 @@ Cypress.Commands.add('login', (username = 'Snow', password = '12345Qwert!', type
       "password": password,
     },
   }).then((resp) => {
-    window.localStorage.setItem("connect.sid", resp.body.user.token);
+    window.localStorage.setItem("connect.sid", resp.body);
   });
 });

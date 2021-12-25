@@ -133,7 +133,73 @@
 >
 ------------------------------------------------------------------------------------------
 >
-> ## TC#06
+> ## TCN#06
+>
+>> ### User with different 'password' field & 'confirm password' field shouldn't be able to sign up - page shows warning   message
+>
+> Preconditions:
+>
+> 1. Go to http://localhost:3000/signup
+>
+> Test data: 
+>
+> first name: Big
+>
+> last name: Red
+>
+> username: Tomato
+> 
+> Steps:
+>
+> 1. Fill all mandatory fields except 'password' and 'confirm password' with test data
+>
+> 2. Type '12345Qwert!' in 'password' field
+>
+> 3. Type '123456qwert!' in 'confirm password' field
+>
+> 4. Click on [Sign Up] button
+>
+> Expected result:
+>
+> 1. Below 'Confirm password' field - page shows message "Password does not match", "Sign Up" button is disabled - unsuccessfully sign up.
+>
+------------------------------------------------------------------------------------------
+>
+> ## TCN#07
+>
+>> ### User with password length less then 4 characters shouldn't be able to sign up - page shows warning message
+>
+> Preconditions:
+>
+> 1. Go to http://localhost:3000/signup
+>
+> Test data: 
+>
+> first name: Little
+>
+> last name: Green
+>
+> username: Bag
+> 
+> Steps:
+>
+> 1. Fill all mandatory fields except 'password' and 'confirm password' with test data
+>
+> 2. Type '1' in 'password' field
+>
+> 3. Type '1' in 'confirm password' field
+>
+> 4. Click on [Sign Up] button
+>
+> Expected result:
+>
+> 1. Below 'password' field - page shows message "Password must contain at least 4 characters
+
+", "Sign Up" button is disabled - unsuccessfully sign up.
+>
+------------------------------------------------------------------------------------------
+>
+> ## TC#08
 >
 >> ### User should be able to Sign Up by filling all mandatory fields and click [SignUp] button
 > 
@@ -153,7 +219,7 @@
 > 
 ------------------------------------------------------------------------------------------
 >
-> ## TC#07
+> ## TC#09
 >
 >> ### User should be able to Log in
 >
@@ -177,7 +243,7 @@
 >
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#08
+> ## TC#10
 >
 >> ### User should be able to Log out
 > 
@@ -197,9 +263,9 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#09
+> ## TC#11
 >
->> ### When clicking the burger menu in the left side of header - sidebar menu is shown
+>> ### User can view filtered transactions by data, by setting values in data field
 > 
 > Preconditions:
 > 
@@ -209,15 +275,47 @@
 > 
 > Steps:
 > 
-> 1. On homepage click on burger menu in the left side of header
+> 1. Click on [Date: All] button;
+>
+>  2. Choose 'Saturday, 25', double click;
+>
+>  3. Pay attention at text on button.
 > 
 > Expected result:
 >
-> 1. Side bar menu is shown.
+> 1. Calendar is closes - filter button has text 'Date: Dec, 24 2021 - Dec, 25 2021'
+>
+> 2. List of users with current date transactions is shown
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#010
+> ## TC#12
+>
+>> ### User can view filtered transactions by amounr range, by setting values in amount range field
+> 
+> Preconditions:
+> 
+> 1. Make sure that user is logged in
+> 
+> 2. Go to http://localhost:3000 (homepage)
+> 
+> Steps:
+> 
+> 1. Click on [Amount: $0 - $1,000] button;
+>
+>  2. Set range via click on 0-500 by clicking on it
+>
+>  3. Pay attention at text on button.
+> 
+> Expected result:
+>
+> 1. Amount range window shows text 'Amount: $0 - $500'
+>
+> 2. List of users with current amount range transactions is shown
+> 
+------------------------------------------------------------------------------------------
+> 
+> ## TC#013
 >
 >> ### All received notifications is shown when click 'Notifications' link at sidebar
 > 
@@ -237,7 +335,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#011
+> ## TC#014
 >
 >> ### All received notifications is shown when click 'bell' icon in right side of header
 > 
@@ -257,7 +355,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#012
+> ## TC#015
 >
 >> ### User should be able to create Bank Account by clicking 'Bank Accounts' link and click [CREATE] button
 > 
@@ -283,7 +381,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#013
+> ## TC#016
 >
 >> ### User should be able to delete Bank Account by clicking 'Bank Accounts' link and click [DELETE] button
 > 
@@ -309,7 +407,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#014
+> ## TC#017
 >
 >> ### User not be able to create bigger payment as account balance is represented.
 > 
@@ -339,7 +437,7 @@
 > 
 ------------------------------------------------------------------------------------------
 
-> ## TC#015
+> ## TC#018
 >
 >> ### User not be able to create bigger payment request as account balance is represented.
 > 
@@ -369,7 +467,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#016
+> ## TC#019
 >
 >> ### User should be able to create payment transaction by filling all mandatory fields and click [PAY] button
 > 
@@ -399,7 +497,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#017
+> ## TC#020
 >
 >> ### User should be able to create request transaction by filling all mandatory fields and click [REQUEST] button
 > 
@@ -429,7 +527,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#018
+> ## TC#021
 >
 >> ### User should be able to edit user settings by clicking 'My Account' link at sidebar
 > 
@@ -466,7 +564,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#019
+> ## TC#022
 >
 >> ### User's payments should be shown by clicking 'MINE' link in header
 > 
@@ -509,7 +607,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#020
+> ## TC#023
 >
 >> ### User's requests should be shown by clicking 'MINE' link in header
 > 
@@ -552,7 +650,7 @@
 > 
 ------------------------------------------------------------------------------------------
 > 
-> ## TC#021
+> ## TC#024
 >
 >> ### User should be able to create comment by clicking on any other user at homepage - filling the comment field and click [Enter] key
 > 
