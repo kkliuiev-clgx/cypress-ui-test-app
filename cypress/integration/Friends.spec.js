@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-describe('Everyone', () => {
+describe('Friends', () => {
   let existingUser = {
   "username": "Snow",
   "password": "12345Qwert!"
@@ -13,38 +13,27 @@ describe('Everyone', () => {
       .type(existingUser.password);
     cy.get('[data-test="signin-submit"]')
       .click();
+    cy.get('[href="/contacts"]')
+      .click()
     // cy.login();
     
   });
 
-  it('"Everyone" page has logo, "new" button, pages links, bell icon, users list and filter fields', () => {
+  it('"Friends" page has logo, "create transaction" button, pages links, bell icon, users list and filter fields', () => {
     cy.get('[xmlns="http://www.w3.org/2000/svg"]').should("be.visible");
     cy.get('[data-test="nav-top-new-transaction"]').should('be.visible').and("contain", " New");
     cy.get(".MuiBadge-root").should('have.attr', 'data-test', 'nav-top-notifications-count').find("path")
     cy.get('.MuiTabs-centered').within(() => {
-        cy.get(".MuiTab-wrapper").eq(0).should("contain", "Everyone");
-        cy.get(".MuiTab-wrapper").eq(1).should("contain", "Friends");
-        cy.get(".MuiTab-wrapper").eq(2).should("contain", "Mine");
+        cy.get(".MuiButtonBase-root").eq(0).should('have.attr', 'href', '/').and("contain", "Everyone");
+        cy.get(".MuiButtonBase-root").eq(1).should('have.attr', 'href', '/contacts').and("contain", "Friends");
+        cy.get(".MuiButtonBase-root").eq(2).should('have.attr', 'href', '/personal').and("contain", "Mine");
     })
-    cy.get('.ReactVirtualized__Grid__innerScrollContainer').should('have.attr', 'role', 'rowgroup').within(() => {
-        cy.get('div').find('li').eq(0)
-        cy.get('div').find('li').eq(1)
-        cy.get('div').find('li').eq(2).should('have.attr', 'data-test', 'transaction-item-Ke0eaLoOG8Dg');
-        cy.get('div').find('li').eq(3).should('have.attr', 'data-test', 'transaction-item-8YnLpItFazLO');
-    });
-      
-    cy.get('.MuiAvatar-root.MuiAvatar-circular').should('be.visible');
-    cy.get('.MuiBadge-badge.MuiBadge-anchorOriginBottomRightCircle').should('be.visible')
-    cy.get('.MuiTypography-body1').should('contain', 'Arely Kertzmann paid Kaylin')
-    cy.get('.MuiTypography-body2').should('contain', "Payment:");
-
-    cy.get('.MuiGrid-align-items-xs-flex-start').within(() => {
-        cy.get('.MuiGrid-root.MuiGrid-item').eq(0).find('svg');
-        cy.get('p').eq(0).should('have.attr', 'data-test', "transaction-like-count").and('contain', '0');
-        cy.get('.MuiGrid-root.MuiGrid-item').eq(1).find('svg');
-        cy.get('p').eq(1).should('have.attr', 'data-test', "transaction-comment-count").and('contain', '0');
-    })
-  });
+    cy.get('[data-test="empty-list-header"]')
+      .contains("No Transactions");
+    cy.contains('[data-test="transaction-list-empty-create-transaction-button"]', 'Create A Transaction')
+      .should('have.attr', 'href', '/transaction/new')
+      .and('exist')
+  })
 
   it('User can view filtered transactions by data, by setting values in data field', () => {
     cy.get('[data-test="transaction-list-filter-date-range-button"]')

@@ -5,10 +5,9 @@ Cypress.Commands.add('login', (username = 'Snow', password = '12345Qwert!', type
     url: "http://localhost:3001/login",
     body: {
       "username": username,
-      "type": type,
       "password": password,
     },
   }).then((resp) => {
-    window.localStorage.setItem("connect.sid", resp.body);
+    window.localStorage.setItem("connect.sid", resp.Cookies);
   });
 });
