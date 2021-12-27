@@ -17,7 +17,7 @@ describe('Everyone', () => {
     
   });
 
-  it('"Everyone" page has logo, "new" button, pages links, bell icon, users list and filter fields', () => {
+  it('"Everyone" page has logo, [New] "button, pages links, bell icon, users list and filter fields', () => {
     cy.get('[xmlns="http://www.w3.org/2000/svg"]').should("be.visible");
     cy.get('[data-test="nav-top-new-transaction"]').should('be.visible').and("contain", " New");
     cy.get(".MuiBadge-root").should('have.attr', 'data-test', 'nav-top-notifications-count').find("path")
