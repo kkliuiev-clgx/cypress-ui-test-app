@@ -25,4 +25,6 @@ Sign in page
 6) Sign in page contains 'Password' field.
 7) If 'Username' field is not filled, it is marked with red color and text "Username is required" appears.
 8) If User trying to log in with Password which is 3 simbols long or less, User cant log in, 'Password must contain at least 4 characters' message appears.
-9) User can log in with valid data (Register first. Username: 1111; Password: 1111).
+9) User can log in with valid data (Register first. Username: 1234; Password: 1234).
+10) Sign in page contains 'Remmember me'checkbox.
+
