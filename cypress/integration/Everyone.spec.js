@@ -6,14 +6,15 @@ describe('Everyone', () => {
 };
 
   beforeEach(() => {
-    cy.visit('/');
-    cy.get("#username")
-      .type(existingUser.username);
-    cy.get("#password")
-      .type(existingUser.password);
-    cy.get('[data-test="signin-submit"]')
-      .click();
-    // cy.login();
+    
+    // cy.get("#username")
+    //   .type(existingUser.username);
+    // cy.get("#password")
+    //   .type(existingUser.password);
+    // cy.get('[data-test="signin-submit"]')
+    //   .click();
+     cy.login();
+     
     
   });
 
@@ -93,7 +94,26 @@ describe('Everyone', () => {
       .contains('Clear')
       .click({force: true});
     cy.get('[data-test="transaction-list-filter-amount-range-text"]')
-      .contains('Amount Range: $0 - $1,000')
-      .type('{esc}');
+      .contains('Amount Range: $0 - $1,000');
+  });
+
+  it('User not be able to create bigger payment request as account balance is represented', () => {
+    cy.get('[data-test="nav-top-new-transaction"]').click();
+    cy.get('[data-test="user-list-item-t45AiwidW"]').find('span.MuiListItemText-primary').should('contain', 'Edgar Johns').click({force: true});
+    cy.get('[data-test="transaction-create-submit-payment"]').should('contain', 'Pay').and('be.disabled')
+    cy.get('[placeholder="Amount"]').type('100');
+    cy.get('[placeholder="Add a note"]').type('any text');
+    cy.get('[data-test="transaction-create-submit-payment"]').should('not.be.disabled').click();
+    cy.get('img').should('have.attr', 'src', 'https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg');
+    cy.contains('h2.MuiTypography-root', 'Edgar Johns');
+    cy.get('[data-test="new-transaction-create-another-transaction"]')
+      .should('have.attr', 'type', 'button')
+      .find('.MuiButton-label')
+      .should('contain', 'Create Another Transaction');
+    cy.get('[data-test="new-transaction-return-to-transactions"]')
+      .should('have.attr', 'href', '/')
+      .find('.MuiButton-label')
+      .should('contain', 'Return To Transactions')
+    cy.get('h2.MuiTypography-gutterBottom').should('have.text', 'Paid "$0.00" for any. Not enough money');
   })
 });

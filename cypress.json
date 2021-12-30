@@ -3,5 +3,9 @@
   "ignoreTestFiles": [
     "**/1-getting-started/*.js",
     "**/2-advanced-examples/*.js"
-  ]
+  ],
+  "env": {
+    "apiUrl": "http://localhost:3001"
+  },
+  "chromeWebSecurity": false
 }

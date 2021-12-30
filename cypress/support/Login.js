@@ -3,11 +3,9 @@ Cypress.Commands.add('login', (username = 'Snow', password = '12345Qwert!', type
   cy.request({
     method: "POST",
     url: "http://localhost:3001/login",
-    body: {
-      "username": username,
-      "password": password,
+    headers: {
+      "Set-cookie": "connect.sid=s:auevEiRaZ_w2VN8AMSKObxptVhPuk5Ls.BfYbCjAgcgXzkiOwLtTp7loqrZa5ClA4NwdI8nLtv1g; Path=/; HttpOnly"
     },
-  }).then((resp) => {
-    window.localStorage.setItem("connect.sid", resp.Cookies);
-  });
+  })
+   cy.visit('/')
 });

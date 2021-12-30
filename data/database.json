@@ -11,7 +11,7 @@
       "phoneNumber": "625-316-9882",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 168137,
+      "balance": 188137,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -76,81 +76,15 @@
       "modifiedAt": "2020-05-21T15:15:33.944Z"
     },
     {
-      "id": "mb1I4Dquh",
-      "uuid": "ab69ebc9-5a58-4679-888f-b70207122a61",
-      "firstName": "Jennie",
-      "lastName": "Grant",
-      "username": "Francisca18343",
-      "password": "$2a$10$EyPwf02Y8kP1EzwF1dLtROjqPLt2FZ/eaneCr1XpZw/f2obV9GN5.",
+      "id": "oA_xG1o3u",
+      "uuid": "e546e804-8bfb-4808-a8b5-85231d08c0f2",
+      "firstName": "John",
+      "lastName": "Gates",
+      "username": "Snow",
+      "password": "$2a$10$yxD3EOcOoQDUUi8hMpnUT.Hs1qUH2EoxLBgZQLsvA8/mSGzxLlmo2",
       "balance": 0,
-      "createdAt": "2021-12-28T17:00:35.041Z",
-      "modifiedAt": "2021-12-28T17:00:35.041Z"
-    },
-    {
-      "id": "1sqAyht2U",
-      "uuid": "b424a5b5-b063-4fdb-933f-72b6ebbca878",
-      "firstName": "Braxton",
-      "lastName": "Olson",
-      "username": "Rickey22077",
-      "password": "$2a$10$zsaeNMZeeAMtr78CEQ.gXuLBHqtP86Lic3x6.3iMUgRmYryxBu.2K",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:03:04.169Z",
-      "modifiedAt": "2021-12-28T17:03:04.169Z"
-    },
-    {
-      "id": "7Kga_1Tad",
-      "uuid": "8e085d74-012d-4811-a784-69e9498a1637",
-      "firstName": "Emely",
-      "lastName": "Gorczany",
-      "username": "Reese71592",
-      "password": "$2a$10$ENLUb5C80P6fb39PSmtbT.qS4MdzHAcoFdwJ0xODJVDlTKUysl8NK",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:04:09.105Z",
-      "modifiedAt": "2021-12-28T17:04:09.105Z"
-    },
-    {
-      "id": "pDQ_oJnXi",
-      "uuid": "8ba84986-d40c-4912-a339-e231d3a2b0d7",
-      "firstName": "Alf",
-      "lastName": "Harber",
-      "username": "Alanna52668",
-      "password": "$2a$10$vGne6u4ZWuzovd5KXlhSf.8W/l/uTDaN8wIiZJWONlwO0RpiZh5am",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:06:07.305Z",
-      "modifiedAt": "2021-12-28T17:06:07.305Z"
-    },
-    {
-      "id": "LBUh2dU8Z",
-      "uuid": "09e3fe24-9508-4137-a2ba-56890f64d0af",
-      "firstName": "Alberto",
-      "lastName": "Reichert",
-      "username": "Ethel41661",
-      "password": "$2a$10$g5dj4/GDIWhOWcQWa97s3.UrlbTRQQDqqXKiDT7WYH.D15OYci/c2",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:07:22.488Z",
-      "modifiedAt": "2021-12-28T17:07:22.488Z"
-    },
-    {
-      "id": "agMu4tFEt",
-      "uuid": "08640a04-cd1f-4562-81cd-3a4766729c87",
-      "firstName": "Alia",
-      "lastName": "Barrows",
-      "username": "Caitlyn72479",
-      "password": "$2a$10$Vjbjo14FfnLdlHJbV35LiO7KKHJNtUo8kPPWCzAB/EHnlUlkQ0nLu",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:09:39.818Z",
-      "modifiedAt": "2021-12-28T17:09:39.818Z"
-    },
-    {
-      "id": "cufZIqek-",
-      "uuid": "f32b2bce-f9fd-4a9b-bf64-5c4f63835748",
-      "firstName": "Natalia",
-      "lastName": "Reinger",
-      "username": "Marlin55000",
-      "password": "$2a$10$B3lBg52GHjFkibmePX1GgOiadnaN8rI02arF8Fipnur.jd5RkeUga",
-      "balance": 0,
-      "createdAt": "2021-12-28T17:10:29.492Z",
-      "modifiedAt": "2021-12-28T17:10:29.492Z"
+      "createdAt": "2021-12-30T15:53:10.587Z",
+      "modifiedAt": "2021-12-30T15:53:10.587Z"
     }
   ],
   "contacts": [
@@ -330,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
+    },
+    {
+      "id": "c8hsDu-xu",
+      "uuid": "c7df77d5-4c50-416e-90ec-46f4e836874f",
+      "userId": "oA_xG1o3u",
+      "bankName": "werwerew",
+      "accountNumber": "122222222",
+      "routingNumber": "111111111",
+      "isDeleted": false,
+      "createdAt": "2021-12-30T15:54:26.402Z",
+      "modifiedAt": "2021-12-30T15:54:26.402Z"
     }
   ],
   "transactions": [
@@ -9932,6 +9877,28 @@
       "requestResolvedAt": "",
       "createdAt": "2019-06-27T22:24:04.794Z",
       "modifiedAt": "2020-05-21T04:58:44.494Z"
+    },
+    {
+      "id": "xIF0z-5jq",
+      "uuid": "675cad38-42f4-4202-90b1-a178a4193e88",
+      "amount": 10000,
+      "description": "any text",
+      "receiverId": "t45AiwidW",
+      "senderId": "oA_xG1o3u",
+      "status": "complete",
+      "createdAt": "2021-12-30T15:54:50.434Z",
+      "modifiedAt": "2021-12-30T15:54:50.434Z"
+    },
+    {
+      "id": "1nEoYRhVn",
+      "uuid": "b70b95db-efb6-44fc-a80d-72e2037f5eba",
+      "amount": 10000,
+      "description": "any text",
+      "receiverId": "t45AiwidW",
+      "senderId": "oA_xG1o3u",
+      "status": "complete",
+      "createdAt": "2021-12-30T15:55:30.208Z",
+      "modifiedAt": "2021-12-30T15:55:30.208Z"
     }
   ],
   "likes": [
@@ -10508,6 +10475,26 @@
       "isRead": false,
       "createdAt": "2019-10-19T20:50:49.292Z",
       "modifiedAt": "2020-05-21T21:00:50.192Z"
+    },
+    {
+      "id": "fNkS8It1k-",
+      "uuid": "a4da1269-ad39-40db-98ee-b7d485438c70",
+      "userId": "t45AiwidW",
+      "transactionId": "xIF0z-5jq",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2021-12-30T15:54:50.458Z",
+      "modifiedAt": "2021-12-30T15:54:50.458Z"
+    },
+    {
+      "id": "FrH5J_RXTc",
+      "uuid": "74db4986-8ca1-4d90-9469-1cbf818f9688",
+      "userId": "t45AiwidW",
+      "transactionId": "1nEoYRhVn",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2021-12-30T15:55:30.227Z",
+      "modifiedAt": "2021-12-30T15:55:30.227Z"
     }
   ],
   "banktransfers": [
@@ -11060,6 +11047,26 @@
       "transactionId": "jtdpSmWcsJxk",
       "createdAt": "2019-10-10T05:09:20.517Z",
       "modifiedAt": "2020-05-21T12:24:00.749Z"
+    },
+    {
+      "id": "6-Bv6ZGpwN",
+      "uuid": "494c39dd-b225-4378-9ca3-47b5d2428eab",
+      "userId": "oA_xG1o3u",
+      "amount": 10000,
+      "transactionId": "xIF0z-5jq",
+      "type": "withdrawal",
+      "createdAt": "2021-12-30T15:54:50.441Z",
+      "modifiedAt": "2021-12-30T15:54:50.441Z"
+    },
+    {
+      "id": "8dxRExkXvT",
+      "uuid": "853c9cf4-3447-436a-ae03-32634155c1b9",
+      "userId": "oA_xG1o3u",
+      "amount": 10000,
+      "transactionId": "1nEoYRhVn",
+      "type": "withdrawal",
+      "createdAt": "2021-12-30T15:55:30.214Z",
+      "modifiedAt": "2021-12-30T15:55:30.214Z"
     }
   ]
 }
