@@ -1,0 +1,14 @@
+{
+    "user":
+        {
+        "id":"HcGmnfmn1",
+        "uuid":"a5dc0222-c466-4b43-a8f3-79c65a5d9cd9",
+        "firstName":"5555555",
+        "lastName":"55555",
+        "username":"55555",
+        "password":"$2a$10$T.5DUeX9FPbrlQdeibbCBu7.UlTjO5bdw44/V8u6w8wNJEl1u8d2a",
+        "balance":999999999,
+        "createdAt":"2022-01-11T03:23:46.954Z",
+        "modifiedAt":"2022-01-11T03:23:46.954Z"
+        }
+}
