@@ -74,28 +74,6 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
-    },
-    {
-      "id": "3tXhl7rvO",
-      "uuid": "b5e4898c-7446-4551-bb8e-e5556f6d7197",
-      "firstName": "1234",
-      "lastName": "1234",
-      "username": "1234",
-      "password": "$2a$10$dSqzhcCOJ8GMwmIn9zu/qeW2kSaZjzrd3T.GEBXSb7ODB80ujwVMm",
-      "balance": 0,
-      "createdAt": "2022-01-04T08:16:42.917Z",
-      "modifiedAt": "2022-01-04T08:16:42.917Z"
-    },
-    {
-      "id": "1mt-VYKRe",
-      "uuid": "cb5885e3-6f54-4a73-bde8-b945f56b3091",
-      "firstName": "1234",
-      "lastName": "1234",
-      "username": "1234",
-      "password": "$2a$10$8V5iPJZHitlmtht5Kp6rKeirlMKitj0PfCnQWqSN6vhTm7oL7khJe",
-      "balance": 0,
-      "createdAt": "2022-01-04T08:35:29.771Z",
-      "modifiedAt": "2022-01-04T08:35:29.771Z"
     }
   ],
   "contacts": [
